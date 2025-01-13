@@ -1,0 +1,176 @@
+/***** Footer Section *****/
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+footer{
+  width: 100%;
+  background-color: #082645;
+}
+
+.footer-wrapper{
+  width: 1140px;
+  font-family: "Poppins", Sans-serif;
+  margin: 0px auto;
+}
+
+.footer-inner{
+  margin: 0;
+  padding: 80px 0;
+}
+
+/* Footer Head */
+
+.footer-head{
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.footer-content1{
+  flex-basis: 40%;
+}
+
+.footer-content, .footer-content2{
+  flex-basis: 20%;
+}
+
+
+.footer-content1 img{
+  width: 45%;
+}
+
+.footer-content1 p{
+  width: 65%;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.ico ul li{
+  display: inline-block;
+  list-style: none;
+  margin-right: 5px;
+}
+.ico ul li a{
+  font-size: 19px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.ico ul li a i{
+  width: 40px !important;
+  height: 30px !important;
+  border: 1px solid #2A6CF0C2;
+  text-align: center;
+  padding: 10px 0 0 0;
+  border-radius: 50%;
+  background-color: #2A6CF0C2;
+  transition: 0.7s;
+}
+.ico ul li a i:hover{
+  background-color: #2a6cf081; 
+  border-color: #2a6cf081;
+  transition: 0.7s;
+}
+
+.footer-content h2{
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  padding-bottom: 10px;
+}
+.footer-content ul{
+  margin: 0;
+  padding: 0;
+}
+.footer-content ul li{
+  list-style: none;
+  padding: 5px 0;
+}
+.footer-content ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+.footer-content ul li a{
+  text-decoration: none;
+  color: #fff;
+  transition: 0.8s;
+}
+.footer-content ul li a:hover{
+  color: #1bc1ff;
+  transition: 0.8s;
+}
+.footer-content ul li a span{
+  color: #1bc1ff;
+}
+
+.footer-content2 h2{
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  padding-bottom: 30px;
+}
+.footer-content2 p{
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 25px;
+}
+.number{
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+}
+.mail{
+  padding: 20px 0 40px;
+  display: flex;
+}
+.mail i{
+  color: #fff;
+  padding-right: 10px;
+}
+.mail p{
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  margin-top: -3px;
+}
+.btn{
+  text-decoration: none;
+  background-color: #2A6CF0C2;
+  font-size: 16px;
+  font-weight: 300;
+  color: #FFF;
+  border: 1px solid #2A6CF0C2;
+  border-radius: 50px;
+  padding: 12px 35px;
+  transition: 0.7s;
+}
+.btn:hover{
+  background: transparent;
+  transition: 0.7s;
+}
+.btn i{
+  font-size: 14px;
+}
+
+/* Footer Copyright */
+
+.footer-copyright{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.footer-copyright p{
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer-copyright img{
+  width: 640px;
+  margin: -18px;
+}
+
